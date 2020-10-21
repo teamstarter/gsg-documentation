@@ -732,6 +732,11 @@ export const baseStyles = injectGlobal`
     -webkit-transition: top 0.5s, bottom 0.5s;
   }
 
+  .descParaph {
+    font-size: 0.5em;
+    font-weight: lighter;
+  }
+
   @media (max-width: 767px) {
     .formElement svg path {
       fill: #001934;

@@ -91,7 +91,12 @@ export default class MDXRuntimeTest extends Component {
           <link rel="canonical" href={canonicalUrl} />
         </Helmet>
         <div className={'titleWrapper'}>
-          <StyledHeading>{mdx.fields.title}</StyledHeading>
+          <StyledHeading>
+            {mdx.fields.title}
+            <p className="descParaph">
+              <i>{mdx.fields.description}</i>
+            </p>
+          </StyledHeading>
           <Edit className={'mobileView'}>
             {docsLocation && (
               <Link className={'gitBtn'} to={`${docsLocation}/${mdx.parent.relativePath}`}>
@@ -124,6 +129,7 @@ export const pageQuery = graphql`
         id
         title
         slug
+        description
       }
       body
       tableOfContents
