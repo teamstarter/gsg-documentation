@@ -1,6 +1,6 @@
 const config = {
   gatsby: {
-    pathPrefix: '/',
+    pathPrefix: '/gsg-documentation/',
     siteUrl: 'https://teamstarter.github.io/gsg-documentation/',
     gaTrackingId: null,
     trailingSlash: false,
