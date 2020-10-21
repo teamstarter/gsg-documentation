@@ -1,7 +1,7 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    siteUrl: 'https://teamstarter.github.io/gsg-documentation/',
     gaTrackingId: null,
     trailingSlash: false,
   },
@@ -52,7 +52,7 @@ const config = {
     title: 'GraphQL Sequelize Generator | Teamstarter',
     description: 'Documentation built with mdx',
     ogImage: null,
-    docsLocation: 'https://github.com/teamstarter/gsg-site/tree/master/content',
+    docsLocation: 'https://github.com/teamstarter/gsg-documentation/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {

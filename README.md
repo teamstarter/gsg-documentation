@@ -1,4 +1,4 @@
-# gsg-site
+# gsg-documentation
 
 The documentation website of graphql-sequelize-generator using [Gatsby](https://www.gatsbyjs.com/starters/hasura/gatsby-gitbook-starter).
 
@@ -9,7 +9,7 @@ The documentation website of graphql-sequelize-generator using [Gatsby](https://
 First clone the project
 
 ```
-$ git clone git@github.com:teamstarter/gsg-site.git
+$ git clone git@github.com:teamstarter/gsg-documentation.git
 ```
 
 Add the Gatsby CLI if you do not have it
