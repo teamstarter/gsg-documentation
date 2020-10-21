@@ -27,7 +27,8 @@ Add the lib and the peer dependencies:
 $ yarn add graphql-sequelize-generator graphql sequelize graphql-sequelize
 ```
 
-⚠️ Caution: GSG requires at least Node v9.11.2 or greater as it is using async/await.
+> ⚠️
+> Caution: GSG requires at least Node v9.11.2 or greater as it is using async/await.
 
 Then you will be ready to add a GraphQL API to your express server with only a few lines of code:
 

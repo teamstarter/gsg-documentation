@@ -737,6 +737,12 @@ export const baseStyles = injectGlobal`
     font-weight: lighter;
   }
 
+  .gsg-title {
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin-top: 0px;
+  }
+
   @media (max-width: 767px) {
     .formElement svg path {
       fill: #001934;

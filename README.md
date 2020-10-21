@@ -6,8 +6,6 @@ The documentation website of graphql-sequelize-generator using [Gatsby](https://
 
 ## Edition
 
----
-
 First clone the project
 
 ```
@@ -25,8 +23,6 @@ we edit the site by modifying the .md files located in the content folder. Each 
 The config.json file can also be edited to change the configurations of the website (the elements of the hearder, froexample).
 
 ## Available commands
-
----
 
 ### Start the development server
 

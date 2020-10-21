@@ -6,24 +6,16 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
-    title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+    logo: '',
+    logoLink: '',
+    title: 'GSG - Documentation',
+    githubUrl: 'https://github.com/teamstarter/graphql-sequelize-generator',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
+		    <a href="https://twitter.com/teamstarterapp" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
 		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
 		      </div>
 		    </a>
 		  </li>`,
@@ -45,24 +37,29 @@ const config = {
     collapsedNav: [
       // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [
+      { text: 'GraphQL', link: 'https://graphql.org/' },
+      { text: 'Apollo', link: 'https://www.apollographql.com/docs/apollo-server/' },
+      { text: 'Sequelize', link: 'https://sequelize.org/' },
+      { text: 'graphql-sequelize', link: 'https://github.com/mickhansen/graphql-sequelize' },
+    ],
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      "<a href='https://github.com/teamstarter/graphql-sequelize-generator'>graphql-sequelize-generator </a>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'GraphQL Sequelize Generator | Teamstarter',
+    description: 'Documentation built with mdx',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
+    docsLocation: 'https://github.com/teamstarter/gsg-site/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: 'GraphQL Sequelize Generator',
+      short_name: 'graphql-sequelize-generator',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
