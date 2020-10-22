@@ -53,7 +53,7 @@ const config = {
     description: 'Documentation built with mdx',
     ogImage: null,
     docsLocation: 'https://github.com/teamstarter/gsg-documentation/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    favicon: 'favicon.ico',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
