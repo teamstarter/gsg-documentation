@@ -31,6 +31,7 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/gettingStarted', // add trailing slash if enabled above
+      '/gettingStartedBoilerplates',
       '/resolvers',
       '/server',
     ],
@@ -42,6 +43,11 @@ const config = {
       { text: 'Apollo', link: 'https://www.apollographql.com/docs/apollo-server/' },
       { text: 'Sequelize', link: 'https://sequelize.org/' },
       { text: 'graphql-sequelize', link: 'https://github.com/mickhansen/graphql-sequelize' },
+      { text: 'GSG Boilerplate', link: 'https://github.com/teamstarter/gsg-boilerplate' },
+      {
+        text: 'GSG Boilerplate Typescript',
+        link: 'https://github.com/teamstarter/gsg-boilerplate-typescript',
+      },
     ],
     frontline: false,
     ignoreIndex: true,
