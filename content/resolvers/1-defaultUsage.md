@@ -14,6 +14,7 @@ graphqlSchemaDeclaration.user = {
 };
 ```
 
+<!-- OK -->
 Assuming "models" is your import of the Sequelize models folder.
 
 This will by default:
@@ -63,3 +64,5 @@ If you have the relations set in your Sequelize folder.
 
 > ⚠️
 > Any relation linked to a model NOT defined in the graphqlSchemaDeclaration will be ignored. It's up to you to chose what do you expose.
+
+<!-- OK -->
