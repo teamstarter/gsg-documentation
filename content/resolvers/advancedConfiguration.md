@@ -29,7 +29,7 @@ graphqlSchemaDeclaration.user = {
       // Global before hook only have args, context and info.
       // You can use many functions or just one.
 
-      // Use it if you need to do something before each enpoint
+      // Use it if you need to do something before each endpoint
       if (!context.bootDate) {
         throw new Error('Boot date is missing!')
       }
