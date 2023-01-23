@@ -1,7 +1,7 @@
 ---
 title: 'Advanced configuration'
 metaTitle: 'Advanced configuration'
-metaDescription: 'Here we descripbe the advanced configurations of graphql-sequelize-generator'
+metaDescription: 'Here we describe the advanced configurations of graphql-sequelize-generator'
 ---
 # Advanced configuration
 ## Here is a sum-up of everything you can configure in a model declaration:
@@ -72,7 +72,7 @@ if (!context.user.role !== 'admin') {
 // The function returns nothing
 ```
 ----
-### List option with... options to be set ! Option-ception ? Ince-option ?
+### List option
 ```javascript
 list: {
   {options}
