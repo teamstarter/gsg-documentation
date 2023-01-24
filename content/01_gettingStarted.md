@@ -34,7 +34,6 @@ yarn add graphql-sequelize-generator graphql sequelize graphql-sequelize @apollo
 
 ### Initializing the project with Sequelize-CLI and adding data to the database
 If you need to initialize the project, please follow this Sequelize documentation page : [Sequelize-Cli and Migrations](https://sequelize.org/docs/v6/other-topics/migrations/)
-or follow our [really simple example](LINK)
 
 # Setting up your server
 Create a file where you will set up your server and paste the following code. We used index.js (at the root of our example project):
