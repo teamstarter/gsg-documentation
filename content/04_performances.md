@@ -4,9 +4,8 @@ metaTitle: 'Performances'
 metaDescription: 'Here we talk about the performances of graphql-sequelize-generator'
 ---
 
+# Performances
 GSG uses [graphql-sequelize](https://github.com/mickhansen/graphql-sequelize) under the hood, and so it inherit it's dependency [dataloader-sequelize](https://github.com/mickhansen/dataloader-sequelize).
-
----
 
 ### Dataloader-sequelize
 
