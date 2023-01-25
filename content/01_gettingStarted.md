@@ -88,7 +88,6 @@ const createServer = async (options = {}, globalPreCallback = () => null) => {
     );
   });
   return httpServer;
-  console.log("got this far 4");
 };
 
 const closeServer = async (server) => {
