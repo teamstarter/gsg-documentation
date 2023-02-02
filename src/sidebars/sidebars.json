@@ -1,0 +1,13 @@
+[
+  {
+    "entry": "Documentation",
+    "name": "Documentation",
+    "items":[
+      "1gettingStarted",
+      "gettingStartedBoilerplates",
+      "2creatingYourSchema",
+      "3advancedConfiguration",
+      "4performances"
+    ]
+  }
+]

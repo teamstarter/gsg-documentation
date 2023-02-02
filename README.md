@@ -1,51 +1,57 @@
-# gsg-documentation
+# GraphQL-Sequelize-Generator
 
-The documentation website of graphql-sequelize-generator using [Gatsby](https://www.gatsbyjs.com/starters/hasura/gatsby-gitbook-starter).
+Boilerplate for markdown-based website (Documentation, Blog, etc.). Based on [gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default).
 
----
+[live demo](https://cvluca.github.io/gatsby-starter-markdown)
 
-## Edition
+## Features
 
-First clone the project
+- Responsive Web Design
+- Sidebar
+- Anchor
 
-```
-$ git clone git@github.com:teamstarter/gsg-documentation.git
-```
+## TODO
 
-Add the Gatsby CLI if you do not have it
+- Footer
+- Search Funtionality
+- More examples
 
-```
-$ yarn global add gatsby-cli
-```
+## Plugins
 
-we edit the site by modifying the .md files located in the content folder. Each menu section is represented by a folder with the same name as the root .md file of the section.
+- gatsby-image
+- gatsby-plugin-manifest
+- gatsby-plugin-offline
+- gatsby-plugin-react-helmet
+- gatsby-plugin-sharp
+- gatsby-remark-images
+- gatsby-remark-autolink-headers
+- gatsby-remark-katex
+- gatsby-source-filesystem
+- gatsby-transformer-json
+- gatsby-transformer-remark
+- gatsby-transformer-sharp
 
-The config.json file can also be edited to change the configurations of the website (the elements of the hearder, froexample).
+## Quick Start
 
-## Available commands
+1.  **Create a Gatsby site.**
 
-### Start the development server
+    Use the Gatsby CLI to create a new site, specifying the default starter.
 
-```
-$ gatsby develop
-```
+    ```sh
+    gatsby new gatsby-starter-markdown https://github.com/cvluca/gatsby-starter-markdown
+    ```
 
-Gatsby will start a hot-reloading development environment accessible by default at http://localhost:8000.
+1.  **Start developing.**
 
-Try editing the home page in src/pages/index.js. Saved changes will live reload in the browser.
+    Navigate into your new site’s directory and start it up.
 
-### Create a production build
+    ```sh
+    cd gatsby-starter-markdown/
+    gatsby develop
+    ```
 
-```
-$ gatsby build
-```
+1.  **Open the source code and start editing!**
 
-Gatsby will perform an optimized production build for your site, generating static HTML and per-route JavaScript code bundles.
+    Your site is now running at `http://localhost:8000`!
 
-### serve the production build locally
-
-```
-$ gatsby serve
-```
-
-Gatsby starts a local HTML server for testing your built site. Remember to build your site using gatsby build before using this command.
+    _Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
