@@ -104,7 +104,7 @@ list: {
 
 ### Teamstarter's other libraries
 
-- [GraphQL-Node-Jobs](https://teamstarter.github.io/GNJ-documentation/)
+- [GraphQL-Node-Jobs](https://teamstarter.github.io/gnj-documentation/)
   - A job scheduler, a runner and an interface to manage jobs. In one lib.
-- [GraphQL-Web-Hooks](https://teamstarter.github.io/GWH-documentation/)
+- [GraphQL-Web-Hooks](https://teamstarter.github.io/gwh-documentation/)
   - A webhook implementation for GraphQL
